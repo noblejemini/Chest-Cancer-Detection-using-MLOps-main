@@ -746,3 +746,48 @@ x==========x]
 [2024-10-22 12:55:08,808: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-10-22 14:47:52,134: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-22 14:47:52,150: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 14:47:52,150: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 14:47:52,150: INFO: common: created directory at: artifacts]
+[2024-10-22 14:47:52,150: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-22 14:47:52,150: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-10-22 14:49:01,437: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-10-22 14:49:01,914: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-22 14:49:13,706: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-22 14:49:13,706: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-22 14:49:13,706: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 14:49:13,706: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 14:49:13,714: INFO: common: created directory at: artifacts]
+[2024-10-22 14:49:13,714: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-22 14:50:38,495: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-22 14:50:39,916: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-22 14:50:46,130: INFO: stage_03_model_trainer: *******************]
+[2024-10-22 14:50:46,130: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-22 14:50:46,130: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 14:50:46,130: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 14:50:46,130: INFO: common: created directory at: artifacts]
+[2024-10-22 14:50:46,130: INFO: common: created directory at: artifacts\training]
+[2024-10-22 14:52:32,289: INFO: stage_03_model_trainer: *******************]
+[2024-10-22 14:52:32,289: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-22 14:52:32,289: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 14:52:32,289: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 14:52:32,289: INFO: common: created directory at: artifacts]
+[2024-10-22 14:52:32,289: INFO: common: created directory at: artifacts\training]
+[2024-10-22 14:53:28,474: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-22 14:53:34,490: INFO: stage_04_model_evaluation: *******************]
+[2024-10-22 14:53:34,490: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-22 14:53:34,490: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 14:53:34,490: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 14:53:34,490: INFO: common: created directory at: artifacts]
+[2024-10-22 14:53:44,566: INFO: common: json file saved at: scores.json]
+[2024-10-22 14:53:44,566: INFO: common: json file saved at: scores.json]
+[2024-10-22 14:53:44,566: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
