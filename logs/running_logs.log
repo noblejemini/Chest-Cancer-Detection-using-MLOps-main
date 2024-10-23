@@ -810,3 +810,22 @@ x==========x]
 [2024-10-23 09:47:43,873: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-10-23 09:50:58,084: INFO: stage_03_model_trainer: *******************]
+[2024-10-23 09:50:58,084: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-23 09:50:58,084: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-23 09:50:58,084: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-23 09:50:58,095: INFO: common: created directory at: artifacts]
+[2024-10-23 09:50:58,097: INFO: common: created directory at: artifacts\training]
+[2024-10-23 10:16:13,754: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-23 10:16:24,040: INFO: stage_04_model_evaluation: *******************]
+[2024-10-23 10:16:24,040: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-23 10:16:24,040: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-23 10:16:24,040: INFO: common: yaml file: D:\Major\Chest-Cancer-Detection-using-MLOps-main\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-23 10:16:24,054: INFO: common: created directory at: artifacts]
+[2024-10-23 10:16:34,367: INFO: common: json file saved at: scores.json]
+[2024-10-23 10:16:34,367: INFO: common: json file saved at: scores.json]
+[2024-10-23 10:16:34,367: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
