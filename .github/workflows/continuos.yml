@@ -28,19 +28,19 @@ jobs:
 
     - name: Run Data Ingestion Pipeline
       run: |
-        python src/pipelines/stage_01_data_ingestion.py  # Run your data ingestion pipeline
-
+        python src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py
+      
     - name: Prepare the Base Model
       run: |
-        python src/pipelines/stage_02_prepare_base_model.py  # Prepare the base model pipeline
-
+        python src/ChestCancerClassifier/pipeline/stage_02_prepare_base_model.py
+      
     - name: Train the Model
       run: |
-        python src/pipelines/stage_03_model_trainer.py  # Run the model training pipeline
-
+        python src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py
+      
     - name: Evaluate the Model
       run: |
-        python src/pipelines/stage_04_model_evaluation.py  # Evaluate the model after training
+        python src/ChestCancerClassifier/pipeline/stage_04_model_evaluation.py 
 
     - name: Start the Prediction App
       run: |
