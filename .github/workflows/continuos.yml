@@ -47,4 +47,8 @@ jobs:
         nohup python app.py &  # Run the app in the background
         sleep 10  # Wait for the app to start (adjust if needed)
 
+<<<<<<< HEAD
  
+=======
+ 
+>>>>>>> 23089ba24eac4ea49b5a5d1f640d049496eedea8
